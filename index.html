@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <section class= 'input'>
+        <label for= 'button'>Insira o texto aqui: </label><input id= 'text-input' type= 'text' maxlength="60">
+    </section>
+    <section class= 'input'>
+        <label for= 'img'>Selecione a imagem: </label><input type='file' id='img' name='img' accept='image/*'>
+        <input id='meme-insert' type= 'submit'>
+    </section>
+    <main>
+        <div id= 'meme-image-container' class='container'>
+            <img id= 'meme-image' class='image'>
+            <span id= 'meme-text' class='meme-text'></span>
+        </div>
+    </main>
+    <section>
+        <button id='fire' class='button red'>Fire Border</button>
+        <button id='water' class='button blue'>Water Border</button>
+        <button id='earth' class='button green'>Earth Border</button>
+    </section>
+    <section>
+        <img class='mini-meme' id='meme-1' src='imgs/meme1.png'>
+        <img class='mini-meme' id='meme-2' src='imgs/meme2.png'>
+        <img class='mini-meme' id='meme-3' src='imgs/meme3.png'>
+        <img class='mini-meme' id='meme-4' src='imgs/meme4.png'>
+    </section>
+    <script src='script.js'></script>
+</body>
+</html>
