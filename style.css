@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(162 , 210 , 255);
+}
+
+header {
+  text-align: center;
+}
+
+.exampleContainer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.exampleContainer div {
+  background-size: 100%;
+  display: inline-block;
+  height: 150px;
+  margin: auto 30px;
+  width: 150px;
+}
+
+.exampleContainer img {
+  background-size: 100%;
+  display: inline-block;
+  height: 150px;
+  margin: auto 30px;
+  width: 150px;
+}
+
+.inputContainer {
+  text-align: center;
+}
+
+.inputContainer input {
+  text-align: center;
+}
+
+.memeContainer {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 30px auto;
+  position: relative;
+  width: 400px;
+}
+
+.memeContainer img {
+  background-size: 100%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.memeContainer p {
+  color: white;
+  font-size: 30px;
+  margin: 320px 20px auto;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+.other-buttons-container {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.other-buttons-container button {
+  background-size: 100%;
+  border-radius: 50px;
+  height: 60px;
+  margin: auto 30px;
+  width: 60px;
+}
