@@ -1,0 +1,165 @@
+body {
+  background-color: seagreen;
+  font-family: Goldman, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  background-size: 200% auto;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 1px rgb(37 , 36 , 34);
+}
+
+.main-content {
+  display: block;
+  margin: auto;
+  min-height: 400px;
+  width: 1300px;
+}
+
+.input-container {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 0 15px black;
+  float: left;
+  height: 450px;
+  margin: 15px 30px;
+  position: relative;
+  width: 650px;
+}
+
+.text-input {
+  border-radius: 6px;
+  box-shadow: 0 2px 8px black;
+  display: block;
+  margin: auto;
+  padding: 4px;
+  width: 70%;
+}
+
+.button-style {
+  color: white;
+  font-weight: 600;
+  margin: 10px;
+  margin-left: 92px;
+  margin-top: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+.meme-text {
+  bottom: 20px;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.meme-image {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.meme-template {
+  border: 3px solid rgb(128 , 100 , 67);
+  box-shadow: 1px 1px 8px black;
+  display: inline-block;
+  height: 150px;
+  margin: 35px 85px 25px 13px;
+  width: 150px;
+}
+
+.button-fire {
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+  font-weight: 600;
+  margin: 15px 10px;
+  padding: 3px;
+  width: 125px;
+}
+
+.button-fire:hover {
+  background-color: tomato;
+}
+
+.button-fire:active {
+  background-color: darkred;
+  color: white;
+}
+
+.button-water {
+  background-color: blue;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+  font-weight: 600;
+  margin: 15px 10px;
+  padding: 3px;
+  width: 125px;
+}
+
+.button-water:hover {
+  background-color: lightblue;
+}
+
+.button-water:active {
+  background-color: darkblue;
+  color: white;
+}
+
+.button-earth {
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+  font-weight: 600;
+  margin: 15px 10px;
+  padding: 3px;
+  width: 125px;
+}
+
+.button-earth:hover {
+  background-color: lightgreen;
+}
+
+.button-earth:active {
+  background-color: darkgreen;
+  color: white;
+}
+
+.footer {
+  background-color: rgb(37 , 36 , 34);
+  border-top: 5px solid rgb(128 , 100 , 67);
+  box-shadow: 0 1px 15px black;
+  color: rgb(204 , 197 , 185);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 800;
+  margin-top: 75px;
+  position: relative;
+  text-indent: 15px;
+  text-shadow: 1px 1px 2px black;
+  width: 100%;
+}
+
+.word {
+  color: rgb(128 , 100 , 67);
+  font-weight: 800;
+}
