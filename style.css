@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+}
+
+/* Tag styles */
+body {
+  background-attachment: fixed;
+  background-image: url('imgs/bg-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Rowdies, cursive;
+}
+
+/* Class styles */
+.body-container {
+  background-color: rgba(255 , 255 , 255 , 0.6);
+  box-shadow: 0 0 10px 10px black;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+  width: 75vw;
+}
+
+.main-title {
+  color: rgb(243 , 220 , 12);
+  font-size: 10vh;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.all-meme-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0 15px 15px;
+  width: 35vw;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-fields {
+  font-size: 16px;
+  margin: 15px;
+  width: 450px;
+}
+
+.black-border {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.meme-image-style {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.text-style {
+  bottom: 5%;
+  color: white;
+  font-family: Anton, sans-serif;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+  z-index: 2;
+}
+
+.custom-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+}
+
+.btns-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.btns-container {
+  align-items: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.fire-border {
+  background-color: white;
+  border: 3px dashed red;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.fire-btn-style {
+  background-color: red;
+}
+
+.water-border {
+  background-color: white;
+  border: 5px double blue;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.water-btn-style {
+  background-color: blue;
+}
+
+.earth-border {
+  background-color: white;
+  border: 6px groove green;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.earth-btn-style {
+  background-color: green;
+}
+
+.memes-container {
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 15px;
+  width: 35vw;
+}
+
+.img-wrap {
+  margin: 10px;
+  width: 15vw;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 7.5vh;
+  margin: 0 20px;
+}
+
+/* Inherit styles */
+.btns-container button {
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: space-around;
+  width: 5vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
