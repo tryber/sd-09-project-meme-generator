@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Meme Generator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Meme Generator Project</h1>
+        </header>
+        <div id="buttons-container">
+            <label for="text">Text:</label>
+            <input type="text" id="text-input" name="text">
+            <br>
+            <label for="image">Image:</label>
+            <input id="uploadImage" type="file" accept="image/*" onchange="previewImage();">
+        </div>
+        <div id="meme-image-container">
+            <img id="meme-image">
+            <p id="meme-text"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

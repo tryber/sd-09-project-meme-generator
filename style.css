@@ -1,0 +1,59 @@
+body{
+    font-size: 20px;
+    text-align: center;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0% {background-color: rgb(56, 173, 186);}
+    50% {background-color: rgb(230, 67, 202);}
+    100% {background-color: rgb(56, 173, 186);}
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+#buttons-container {
+    display: inline-block;
+    width: 320px;
+}
+
+label{
+    text-align: left;
+    float: left;
+}
+
+#buttons-container input {
+    width: 180px;
+}
+
+#buttons-container input:first-child {
+    margin-left: 30px;
+}
+
+#meme-image-container {
+    margin-top: 15px;
+    width: 500px;
+    height: 400px;
+    border: black 5px solid;
+    background-size: contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#meme-image {
+    width: 500px;
+    height: 400px;
+}
+
+#meme-text {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 150px;
+}
