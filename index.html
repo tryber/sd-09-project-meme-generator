@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <input type="text" id="text-input" class="text-input" maxlength="60">
+    <div id="meme-image-container" class="image-container">
+        <img id='meme-image' class="meme-image"></img>
+        <span id="meme-text" class="meme-content"></span>
+    </div>
+    <div class="input-container">
+     <input type="file" name="" id="meme-insert" class="meme-insert" onchange="loadFile(event)">
+    </div>
+    <br>
+    <div class="memes-container">
+        <img src="./imgs/meme1.png" id='meme-1' class="memes" alt="">
+        <img src="./imgs/meme2.png" id='meme-2' class="memes" alt="">
+        <img src="./imgs/meme3.png" id='meme-3' class="memes" alt="">
+        <img src="./imgs/meme4.png" id='meme-4' class="memes" alt="">
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/11720ade63.js" crossorigin="anonymous"></script>
+</html>
