@@ -1,0 +1,19 @@
+.inputs-container {
+  background-color: gray;
+  width: auto;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-img {
+  display: block;
+  margin: 10px;
+  padding: 0;
+}
+
+.input-text {
+  display: block;
+  margin: 10px;
+  padding: 0;
+}
