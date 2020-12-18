@@ -1,0 +1,62 @@
+.fit-img {
+  height: 100%;
+  width: 100%;
+}
+
+.ready-made {
+  display: inline-block;
+}
+
+.thumbnail {
+  height: 120px;
+  width: 120px;
+}
+
+.img-container {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.text-container {
+  bottom: 0;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin: 10px 0;
+  position: relative;
+  width: 500px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.fire-border {
+  border: 3px dashed red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.water-border {
+  border: 5px double blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.earth-border {
+  border: 6px groove green;
+}
