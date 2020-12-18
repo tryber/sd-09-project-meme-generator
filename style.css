@@ -1,0 +1,77 @@
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.file-section {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.meme-image {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.buttons-section {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fire-button {
+  background-color: red;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.water-button {
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.earth-button {
+  background-color: green;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.meme-ready {
+  height: 60px;
+  margin: 4px;
+  width: 60px;
+}
