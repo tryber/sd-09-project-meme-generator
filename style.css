@@ -1,0 +1,26 @@
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+
+.meme-image {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  margin-top: 350px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 380px;
+  word-break: break-all;
+  z-index: 2;
+}
