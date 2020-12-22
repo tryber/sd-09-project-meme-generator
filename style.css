@@ -1,0 +1,12 @@
+#meme-image-container {
+    position: relative; 
+    border: 1px solid black;
+    display: inline-block;   
+    background-color: white;
+}
+
+#meme-text {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}

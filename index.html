@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+  </head>
+  <body>
+		<header>
+		<h1>Meme Generator</h1>
+		</header>
+
+		<main>
+			<section class="input">
+				<span>Texto: </span><input id="text-input"><br>
+				<span>Foto: </span><input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+			</section>
+			<section class="meme-container" id="meme-image-container">
+				<span id="meme-text"></span>
+				<img id="meme-image">
+			</section>
+		</main>
+
+	</body>
+
+	<footer>
+		<nav>
+			<a href="https://instagram.com/ivandolim" target="_blank">Instagram</a> |
+			<a href="https://github.com/IvanRafael-Dev" target="_blank">GitHub</a> |
+			<a href="https://www.linkedin.com/in/ivan-rafael/" target="_blank">LinkedIn</a>
+      </nav>
+      <p>Projeto desenvolvido por Ivan Rafael durante o curso de desenvolvimento de software na Trybe, em dezembro de 2020. Todos os direitos reservados.</p>
+			<p>Com &#10084; <span>São Paulo, novembro de 2020</span></p>
+	</footer>
+
+	<script src="script.js"></script>
+</html>
