@@ -1,0 +1,79 @@
+.style-container {
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  height: 200px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.style-image {
+  height: 200px;
+  position: absolute;
+  width: 300px;
+}
+
+.style-text {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  text-shadow: 5px 5px 5px black;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.btn-fire {
+  background-color: red;
+  margin-left: 20px;
+}
+
+.btn-water {
+  background-color: blue;
+  margin-left: 20px;
+}
+
+.btn-earth {
+  background-color: green;
+  margin-left: 20px;
+}
+
+.fire {
+  background-color: white;
+  border: dashed;
+  border-color: red;
+  border-width: 3px;
+  height: 200px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.water {
+  background-color: white;
+  border: double;
+  border-color: blue;
+  border-width: 5px;
+  height: 200px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.earth {
+  background-color: white;
+  border: groove;
+  border-color: green;
+  border-width: 6px;
+  height: 200px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.img-meme {
+  height: 40px;
+  margin-left: 20px;
+  width: 40px;
+}

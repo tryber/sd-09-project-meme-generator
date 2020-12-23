@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mene Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <div>
+        <label for="text-input">Text</label>
+        <input maxlength="60" type="text" id="text-input">
+    </div><br>
+    <div>
+        <label for="meme-insert">Foto</label>
+        <button id="meme-insert">Choose File</button>
+    </div>
+    <div id="meme-image-container" class="style-container">
+        <img class="style-image" id="meme-image" src="" alt="">
+        <p class="style-text" id="meme-text"></p>
+    </div>
+    <section>
+        <h2>Estilos customizados</h2>
+        <div class="button-container">
+            <button class="btn-fire" id="fire">Fire</button>
+            <button class="btn-water" id="water">Water</button>
+            <button class="btn-earth" id="earth">Earth</button>
+        </div>
+    </section>
+    <section>
+        <h2>Memes pré-prontos</h2>
+        <div>
+            <img class="img-meme" id="meme-1" src="imgs/meme1.png" alt="">
+            <img class="img-meme" id="meme-2" src="imgs/meme2.png" alt="">
+            <img class="img-meme" id="meme-3" src="imgs/meme3.png" alt="">
+            <img class="img-meme" id="meme-4" src="imgs/meme4.png" alt="">
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
