@@ -1,0 +1,52 @@
+body {
+  font-family: fantasy, sans-serif;
+  height: 768px;
+  text-align: center;
+  width: 1366px;
+}
+
+button {
+  height: 25px;
+  margin: 5px 15px;
+  width: 80px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  margin: 10px;
+}
+
+p {
+  bottom: 20px;
+  color: white;
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+section {
+  background-color: white;
+  border: 1px solid black;
+  height: 60%;
+  margin: 30px auto;
+  position: relative;
+  width: 50%;
+}
+
+.image-mini {
+  margin: 0 10px;
+  width: 150px;
+}
+
+.memes-images {
+  display: inline-block;
+  height: 10%;
+  margin-top: 15px;
+}
