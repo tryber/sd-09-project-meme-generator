@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(3 , 107 , 82);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  bottom: 0;
+  height: 400px;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 400px;
+}
+
+.img-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 5% 23%;
+  position: relative;
+  width: 400px;
+}
+
+.main-page {
+  background-color: rgb(213 , 225 , 223);
+  border: 5px solid rgb(47 , 193 , 140);
+  border-radius: 15px;
+  color: rgb(3 , 107 , 82);
+  margin: 2% 20%;
+  text-align: center;
+}
+
+.thumbnails-section img {
+  border: 1px solid black;
+  display: inline-block;
+  height: 120px;
+  margin: 10px;
+  width: 120px;
+}
+
+.text-container {
+  bottom: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  height: 150px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.earth-button {
+  background-color: green;
+  color: white;
+}
+
+.water-button {
+  background-color: blue;
+  color: white;
+}
+
+.fire-button {
+  background-color: red;
+  color: white;
+}
