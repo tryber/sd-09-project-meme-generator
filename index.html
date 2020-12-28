@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="center">
+    <header class="head">
+      <h1>Meme Generator</h1>
+    </header>
+    <section>
+      <p>Text: <input id="text-input" class="text-input" type="text"></p>
+      <label for="img">Select image: </label>
+      <input  type="file" id="meme-insert" class="meme-insert" accept="image/*">
+    </section>
+    <section id="meme-image-container" class="meme-container">
+      <p id="meme-text" class="meme-text"></p>
+      <img src="" alt="" id="meme-image" class="meme-image">
+    </section>
+    <section id="buttons" class="buttons">
+    </section>
+    <section id="ready-memes">
+      <img id="meme-1" class="meme" src="/imgs/meme1.png" alt="Dois animeis mamiferos suricatos em pé como se estivessem conversando">
+      <img id="meme-2" class="meme" src="/imgs/meme2.png" alt="Papagaio com rosto de um tigre em cima de um galho">
+      <img id="meme-3" class="meme" src="/imgs/meme3.png" alt="Um cachorro fazendo massagem nas costas de outro cachorro">
+      <img id="meme-4" class="meme" src="/imgs/meme4.png" alt="Um gato zangado em cima de um notebook">
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+  background-image: url('/imgs/cartoon.png');
+  background-size: cover;
+  font-family: Permanent Marker, cursive;
+  font-size: 20px;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.meme-container {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 350px 300px;
+  height: 250px;
+  margin: 15px auto;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+.meme-text {
+  color: white;
+  font-family: Fredoka One, cursive;
+  font-size: 30px;
+  line-height: 25px;
+  margin: 15px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  top: 300px;
+  width: 250px;
+}
+
+.text-input {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 4px;
+}
+
+.buttons {
+  margin: 15px;
+}
+
+.button {
+  border-radius: 10px;
+  margin: 3px;
+  padding: 5px 10px;
+  width: 70px;
+}
+
+.fire , .water , .earth {
+  font-family: Permanent Marker, cursive;
+}
+
+.fire {
+  background-color: red;
+  color: white;
+}
+
+.fire:hover {
+  background-color: rgba(255 , 0 , 0 , 0.74);
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.water:hover {
+  background-color: rgba(0 , 0 , 255 , 0.753);
+}
+
+.earth {
+  background-color: green;
+  color: white;
+}
+
+.earth:hover {
+  background-color: rgba(0 , 128 , 0 , 0.747);
+}
+
+.meme {
+  height: 80px;
+  padding: 5px;
+  width: 100px;
+}
+
+.center {
+  background-color: rgba(240 , 248 , 255 , 0.801);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 35px auto;
+  padding: 5px 0;
+  text-align: center;
+  width: 500px;
+}
