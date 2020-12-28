@@ -1,0 +1,45 @@
+#meme-insert {
+  margin-top: 6px;
+}
+
+#meme-image-container {
+  border: 1px solid;
+  height: 500px;
+  width: 500px;
+  margin-top: 6px;
+  background-color: white;
+  word-break: break-all;
+}
+
+#meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+#meme-text {
+  margin-left: 40px;
+  width: 400px;
+  position: absolute;
+  top: 450px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.meme-exemplo {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
