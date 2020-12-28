@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="title">Meme Generator</h1>
+  </header>
+
+  <article class="container">
+    <section class="input-container">
+      Texto:
+      <input maxlength="60" type="text" id="text-input">
+      <br>
+      Foto:
+      <input type="file" accept="image/*" id="meme-insert">
+    </section>
+    <section class="memeImageContainer" id="meme-image-container">
+      <img class="memeImage" id="meme-image" src="" alt="">
+      <p class="memeText" id="meme-text"></p>
+    </section>
+    <section class="styles">
+      <button class="btn-fire" id="fire">Fire</button>
+      <button class="btn-water" id="water">Water</button>
+      <button class="btn-earth" id="earth">Earth</button>
+    </section>
+    <section class="ready">
+      <img class="img-ready" id="meme-1" src="/imgs/meme1.png" alt="">
+      <img class="img-ready" id="meme-2" src="/imgs/meme2.png" alt="">
+      <img class="img-ready" id="meme-3" src="/imgs/meme3.png" alt="">
+      <img class="img-ready" id="meme-4" src="/imgs/meme4.png" alt="">
+    </section>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
