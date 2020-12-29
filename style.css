@@ -1,0 +1,39 @@
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px black solid;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  width: 50vw;
+}
+
+.meme-text {
+  bottom: 0;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  word-break: break-all;
+}
+
+.button-earth {
+  background-color: green;
+}
+
+.button-fire {
+  background-color: red;
+}
+
+.button-water {
+  background-color: blue;
+}
+
+.meme {
+  height: 30vh;
+  width: 15vw;
+}
