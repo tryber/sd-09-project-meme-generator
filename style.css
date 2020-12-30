@@ -1,0 +1,61 @@
+.head {
+  display: inline-block;
+}
+
+.mainImage {
+  background-color: white;
+  border: black 1px solid;
+  height: 60vh;
+  margin: 50px auto;
+  position: relative;
+  width: 100vh;
+}
+
+.images {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.memeText {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  top: 0;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: blue 5px double;
+}
+
+.earth {
+  border: groove green 6px;
+}
+
+.backfire {
+  background-color: red;
+}
+
+.backwater {
+  background-color: blue;
+}
+
+.backearth {
+  background-color: green;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+}
+
+.preMeme {
+  max-width: 100px;
+  min-height: 100px;
+}
