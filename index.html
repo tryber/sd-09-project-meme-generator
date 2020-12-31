@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEME GENERATOR MLG V.4.20</title>
+  <link rel="icon" type="image/svg+xml" href="memeIcon.svg">
+  <link rel="alternate icon" type="image/png" href="">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Meme Generator</h1>
+  <input type="text" maxlength="60" name="texto-meme" id="text-input" placeholder="Insira o texto aqui">
+  <input type="file" id="meme-insert" accept="image/png, image/jpeg, image/svg+xml">
+  <div class="image-container default-border" id="meme-image-container">
+    <img class="meme-image" id="meme-image">
+    <div class="meme-text" id="meme-text"><p></p></div>
+  </div>
+  <div id="button-container">
+    <button id="default-border">Default</button>
+    <button class="fire" id="fire">Fire</button>
+    <button class="water" id="water">Water</button>
+    <button class="earth" id="earth">Earth</button>
+  </div>
+  <p>Imagens pré prontas:</p>
+  <div id="ready-made-img-container">
+    <img class="ready-made-img default-border" id="meme-1" src="imgs/meme1.png">
+    <img class="ready-made-img default-border" id="meme-2" src="imgs/meme2.png">
+    <img class="ready-made-img default-border" id="meme-3" src="imgs/meme3.png">
+    <img class="ready-made-img default-border" id="meme-4" src="imgs/meme4.png">
+  </div>
+</body>
+</html>
