@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/trybe.png" alt="Nova Logo da trybe" class="logo">
+      <p>Projeto Bônus 01 | Meme Generator</p>
+    </header>
+    <main>
+      <h1>Gerador de Memes</h1>
+      <div>
+        <label for="text-input">Texto: </label>
+        <input type="text" id="text-input" maxlength="60"/>
+        <label for="meme-insert">Imagem: </label>
+        <input type="file" id="meme-insert" accept=".png,.jpg" webkitrelative />
+      </div>
+      <article id="meme-image-container" class="normal-border">
+        <img id="meme-image" class="meme-img" />
+        <aside id="meme-text" class="meme-txt"></aside>
+      </article>
+      <div>
+        <button id="fire" class="fire"><img class="energy" src="assets/fire-energy.png" alt="fire energy symbol"></button>
+        <button id="water" class="water"><img class="energy" src="assets/water-energy.jpg" alt="water energy symbol"></button>
+        <button id="earth" class="earth"><img class="energy" src="assets/leaf-energy.jpg" alt="leaf energy symbol"></button>
+      </div>
+      <div id="showcase">
+        <img src="assets/imgs/meme1.png" alt="Surprised Pikachu" class="samples normal-border" id="meme-1">
+        <img src="assets/imgs/meme2.png" alt="Shut Up And Take My Money" class="samples normal-border" id="meme-2">
+        <img src="assets/imgs/meme3.png" alt="Aliens" class="samples normal-border" id="meme-3">
+        <img src="assets/imgs/meme4.png" alt="Spider-Man Ok" class="samples normal-border" id="meme-4">
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

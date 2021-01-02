@@ -1,0 +1,139 @@
+body {
+  background-color: antiquewhite;
+}
+
+main {
+  background-color: rgb(82 , 183 , 202);
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 1px black;
+  margin: auto;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  top: 3.3em;
+  width: 70%;
+}
+
+header {
+  background-color: rgb(82 , 183 , 136);
+  border-bottom: 2px solid black;
+  display: inline-block;
+  font-family: Texturina, serif;
+  font-weight: 600;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+p {
+  bottom: 30%;
+  color: rgb(108 , 200 , 202);
+  display: inline-block;
+  font-size: xx-large;
+  margin: auto 1%;
+  position: relative;
+  text-align: left;
+  text-shadow: 1.5px 1.5px black;
+}
+
+h1 {
+  color: silver;
+  font-family: Dancing Script, cursive;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0.3em auto;
+  position: relative;
+  text-shadow: 1.2px 1.2px black;
+}
+
+article {
+  background-color: white;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  top: 15px;
+  width: fit-content;
+}
+
+.meme-img {
+  height: 500px;
+  position: relative;
+  width: 600px;
+}
+
+.meme-txt {
+  bottom: 75px;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  text-shadow: black 5px 5px 5px;
+  width: 400px;
+}
+
+.energy {
+  border-radius: 100%;
+  height: 59px;
+  margin: auto;
+}
+
+button {
+  border: outset 2px silver;
+  border-radius: 100%;
+  height: 80px;
+  justify-content: center;
+  margin: 30px;
+  position: relative;
+  top: 1em;
+  width: 80px;
+}
+
+button:hover , button:focus {
+  border: outset 4px gold;
+  outline: none;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.normal-border {
+  border: 1px solid black;
+}
+
+.fire-border {
+  border: 3px dashed red;
+}
+
+.water-border {
+  border: 5px double blue;
+}
+
+.earth-border {
+  border: 6px groove green;
+}
+
+.samples {
+  height: 120px;
+  margin: 20px;
+  width: 100px;
+}
+
+.logo {
+  height: 50px;
+  position: relative;
+}
