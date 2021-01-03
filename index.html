@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 class="title">Meme Generator</h1>
+    </header>
+
+    <section id="app-section">
+      <section id="text-input-container" class="container">
+        <label for="Text Input">Texto:</label>
+        <input type="text" name="Text Input" id="text-input" maxlength="60">
+      </section>
+
+      <section id="meme-insert-container" class="container">
+        <label for="Meme Insert">Foto:</label>
+        <input type="file" name="Meme Insert" id="meme-insert">
+      </section>
+
+      <section id="meme-image-container" class="image-container">
+        <img src="" id="meme-image">
+        <span id="meme-text" class="shadow-text"></span>
+      </section>
+
+      <section id="buttons-container" class="container">
+        <h2 class="text">Estilos customizados:</h2>
+        <button id="fire" class="fire button">Fire 🔥</button>
+        <button id="water" class="water button">Water 💧</button>
+        <button id="earth" class="earth button">Earth 🍏</button>
+      </section>
+
+      <section id="image-gallery-container" class="image-gallery">
+        <img id="meme-1" class="sample-image" src="imgs/meme1.png">
+        <img id="meme-2" class="sample-image" src="imgs/meme2.png">
+        <img id="meme-3" class="sample-image" src="imgs/meme3.png">
+        <img id="meme-4" class="sample-image" src="imgs/meme4.png">
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+  background-image: url('imgs/background.jpeg');
+  background-size: cover;
+}
+
+img {
+  display: block;
+  height: 450px;
+  width: 600px;
+}
+
+input {
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+
+main {
+  background-color: rgba(0 , 0 , 0 , 0.7);
+  border-radius: 1em;
+  box-shadow: 3px 3px 5px black;
+  color: white;
+  font-family: cursive;
+  font-weight: 600;
+  margin: 2em auto;
+  padding: 1em;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  width: 700px;
+}
+
+.button {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px black;
+  color: white;
+  font-weight: 600;
+  margin: 0.6em;
+  padding: 1em;
+  transition: 0.5s;
+}
+
+.button:hover {
+  border-radius: 5px;
+  margin: 0.6em 1em;
+  padding: 1em 1.5em;
+}
+
+.container {
+  margin: 0.5em;
+}
+
+.earth {
+  background-color: green;
+}
+
+.earth:hover {
+  background-color: lime;
+}
+
+.fire {
+  background-color: red;
+}
+
+.fire:hover {
+  background-color: orange;
+}
+
+.image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  margin: auto;
+  position: relative;
+  width: 600px;
+}
+
+.image-gallery {
+  height: 150px;
+}
+
+.image-gallery img {
+  border: 6px ridge silver;
+  box-shadow: 2px 2px 5px black;
+  display: inline-block;
+  height: 90px;
+  margin: 0.4em;
+  transition: 0.3s;
+  width: 120px;
+}
+
+.image-gallery img:hover {
+  height: 120px;
+  width: 160px;
+}
+
+.shadow-text {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  text-shadow: 5px 5px 5px black;
+  top: -100px;
+}
+
+.text {
+  font-size: 1.2em;
+}
+
+
+.title {
+  font-weight: 800;
+}
+
+.water {
+  background-color: blue;
+}
+
+.water:hover {
+  background-color: aqua;
+}
