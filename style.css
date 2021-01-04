@@ -1,0 +1,24 @@
+footer {
+  text-align: center;
+}
+
+.meme-container {
+  background-color: white;
+  border: solid 1px black;
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.meme-container img {
+  height: inherit;
+  width: inherit;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator Project</title>
+</head>
+
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+
+  <main>
+    <section class="input">
+      <span>Texto: </span><input id="text-input">
+      <br>
+      <span>Foto: </span><input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+    </section>
+
+    <section class="meme-container" id="meme-image-container">
+      <span class="meme-text" id="meme-text"></span>
+      <img class="meme-image" id="meme-image" alt="">
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a class="link" href='https://github.com/fernandacajueiro' target="_blank">GitHub</a>
+       |
+      <a class="link" href='https://www.linkedin.com/in/fernandacajueiro/' target="_blank">LinkedIn</a>
+       |
+      <a class="link" href='https://www.betrybe.com/' target="_blank">Trybe</a>
+    </nav>
+
+    <p class="footer-description">Projeto desenvolvido por Fernanda Cajueiro durante o curso de desenvolvimento de software na Trybe. Todos os direitos reservados.</p>
+    Com &#10084;
+    <br>Belo Horizonte, dezembro de 2020.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
