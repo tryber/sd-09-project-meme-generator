@@ -1,0 +1,67 @@
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  height: 500px;
+  position: relative;
+  width: 500px;
+}
+
+img {
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 0;
+}
+
+.fire {
+  background-color: red;
+  border: 3px dashed red;
+}
+
+.water {
+  background-color: blue;
+  border: 5px double blue;
+}
+
+.earth {
+  background-color: green;
+  border: 6px groove green;
+}
+
+.no-border {
+  border: none;
+}
+
+.meme {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+}
+
+.meme-1 {
+  background-image: url('imgs/meme1.png');
+}
+
+.meme-2 {
+  background-image: url('imgs/meme2.png');
+}
+
+.meme-3 {
+  background-image: url('imgs/meme3.png');
+}
+
+.meme-4 {
+  background-image: url('imgs/meme4.png');
+}

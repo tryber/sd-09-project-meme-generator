@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <header>
+    <h1>Projeto Meme Generator</h1>
+  </header>
+  <main>
+    <section>
+      <p>
+        <label>Texto:
+          <input type="text" id="text-input" name="text-input" maxlength="60">
+        </label>
+      </p>
+      <p>
+        <label>Imagem:
+          <input type="file" name="meme-insert" id="meme-insert">
+        </label>
+      </p>
+
+      <div class="buttons">
+        <button id="fire" class="fire no-border">Fire</button>
+        <button id="water" class="water no-border"> Water</button>
+        <button id="earth" class="earth no-border">Earth</button>
+      </div>
+
+      <div>
+        <div alt="Drake Hotline Bling" id="meme-1" class="meme meme-1"></div>
+        <div alt="Third World Skeptical Kid" id="meme-2" class="meme meme-2"></div>
+        <div alt="American Chopper Argument" id="meme-3" class="meme meme-3"></div>
+        <div alt="Xerife Woody e Buzz Lightyear" id="meme-4" class="meme meme-4"></div>
+      </div>
+    </section>
+
+    <section id="meme-image-container" class="meme-image-container">
+      <img id="meme-image">
+      <p id="meme-text" class="meme-text"></p>
+    </section>
+  </main>
+  <footer>
+    <p>Feito com 💙 & ☕ por Nathália Veneziano © 12/2020</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
