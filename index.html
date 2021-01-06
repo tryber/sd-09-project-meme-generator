@@ -1,0 +1,38 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1><span class="colorido">MEME</span>Creator</h1>
+  </header>
+  <p>Texto: <input id="text-input" type="text" max="60"></p>
+  <p> Foto: <input id="meme-image" type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+  </p>
+
+  <img class="container meme-image-container" id="blah" alt="your image" width="500px" height="400px">
+
+  <label class="textMeme" id="meme-text"></label>
+  </div>
+  <br>
+  <br>
+
+  <button id="fire">Fire &#128293 </button>
+  <button id="water">Water &#127754</button>
+  <button id="earth">Earth &#127758</button>
+  <script src="script.js"></script>
+  <br>
+  <br>
+  <img class="foto" id="meme-1" src="meme1.png" alt="your image1" width="50px" height="50px">
+  <img class="foto" id="meme-2" src="meme2.png" alt="your image2" width="50px" height="50px">
+  <img class="foto" id="meme-3" src="meme3.png" alt="your image3" width="50px" height="50px">
+  <img class="foto" id="meme-4" src="meme4.png" alt="your image4" width="50px" height="50px">
+</body>
+
+</html>
