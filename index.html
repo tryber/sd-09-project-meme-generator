@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Meme Generator - Julio H. Thosi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Project Meme Generator - Julio H. Thosi</h1>
+  </header>
+  <section id="inputs">
+    <form for="text-input">Texto: </form>
+    <input id="text-input" type="text" maxlength="60">
+    <form for="meme-insert">Imagem: </form>
+    <input id="meme-insert" type="file" accept="image/*">
+  </section>
+  <div id="meme-image-container">
+      <img id="meme-image">
+      <p id="meme-text"></p>
+  </div>
+  <section id="border-types">
+    <p>Estilos customizados:</p>
+    <button class="button-border" id="fire">Fogo</button>
+    <button class="button-border" id="water">Agua</button>
+    <button class="button-border" id="earth">Terra</button>
+  </section>
+  <section id='memes-prontos'>
+    <p>Memes pré-selecionados:</p>
+    <img id="meme-1" class="meme-class" src="imgs/meme1.png">
+    <img id="meme-2" class="meme-class" src="imgs/meme2.png">
+    <img id="meme-3" class="meme-class" src="imgs/meme3.png">
+    <img id="meme-4" class="meme-class" src="imgs/meme4.png">
+  </section>
+  <script src="script.js">
+  </script>
+</body>
+</html>
