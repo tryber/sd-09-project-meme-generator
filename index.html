@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MEME GENERATOR</h1>
+    </header>
+
+    <main>
+      <section id="inputs-section" class="inputs-section">
+        <div>
+          <label for="text-input">Texto: </label>
+          <input type="text" id="text-input" maxlength="60" />
+        </div>
+
+        <div>
+          <label for="meme-insert">Foto: </label>
+          <input type="file" id="meme-insert" />
+        </div>
+      </section>
+
+      <section id="meme-image-container" class="meme-image-container">
+        <div id="meme-image" class="meme-image">
+          <img />
+        </div>
+        <div id="meme-text-container" class="meme-text-container">
+          <p id="meme-text" class="meme-text"></p>
+        </div>
+      </section>
+
+      <section id="custom-buttons" class="custon-buttons">
+        <h2>Estilos customizados:</h2>
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Memes pré prontos</h2>
+      <div id="prontos" class="prontos">
+        <img src="images/A Criaçao do Homem.jpg" />
+
+        <img src="images/Hippo.jpg" />
+
+        <img src="images/snapshot.jpg" />
+
+        <img src="images/WhatsApp Image 2020-10-31 at 12.30.16.jpeg" />
+      </div>
+    </footer>
+    <script src="src/script.js"></script>
+  </body>
+</html>
