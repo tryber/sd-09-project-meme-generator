@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.meme-canvas {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  width: auto;
+}
+
+.inserted-text {
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+}
